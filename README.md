@@ -46,15 +46,20 @@ python3 lstty.py -tree
 Active TTY/PTS Sessions and their Commands:
 ---
 ## TTY/PTS: /dev/pts/0
-  User: Unknown User (Logged in at: N/A)
+  User: runner (Logged in at: 2025-07-02 09:15)
   Commands running:
     * bash --norc --noprofile
 
 ## TTY/PTS: /dev/pts/1
-  User: Unknown User (Logged in at: N/A)
+  User: runner (Logged in at: 2025-07-02 09:16)
   Commands running:
     * bash --norc --noprofile
     * /bin/bash ./lstty.sh
+
+## TTY/PTS: /dev/pts/2
+  User: root (Logged in at: 2025-07-02 09:10)
+  Commands running:
+    * bash --norc --noprofile
     * /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
     * /sbin/agetty -o -p -- \u --noclear - linux
 
@@ -68,15 +73,20 @@ Active TTY/PTS Sessions and their Commands:
 Active TTY/PTS Sessions and their Commands:
 ---
 ## TTY/PTS: /dev/pts/0
-  User: Unknown User (Logged in at: N/A)
+  User: runner (Logged in at: 2025-07-02 09:15)
   Commands running:
     * bash --norc --noprofile (PID: 3297, User: runner, EXE: /usr/bin/bash)
 
 ## TTY/PTS: /dev/pts/1
-  User: Unknown User (Logged in at: N/A)
+  User: runner (Logged in at: 2025-07-02 09:16)
   Commands running:
     * bash --norc --noprofile (PID: 3299, User: runner, EXE: /usr/bin/bash)
     * /bin/bash ./lstty.sh -v (PID: 3514, User: runner, EXE: /usr/bin/bash)
+
+## TTY/PTS: /dev/pts/2
+  User: root (Logged in at: 2025-07-02 09:10)
+  Commands running:
+    * bash --norc --noprofile (PID: 3300, User: root, EXE: /usr/bin/bash)
     * /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220 (PID: 921, User: root, EXE: )
     * /sbin/agetty -o -p -- \u --noclear - linux (PID: 993, User: root, EXE: )
 
