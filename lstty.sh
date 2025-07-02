@@ -1,8 +1,8 @@
 #!/bin/bash
 # 機能: システム内で有効なすべてのttyとptsを抽出し、それらの端末に接続して実行
 #       されているコマンドをグルーピングしてリストアップする
-# 作成: 2025-07-01 k_tsuka /w Google Gemini 2.5 Flash
-# 更新: 2025-07-01 k_tsuka /w Google Gemini 2.5 Flash
+# 作成: 2025-07-01 k_tsuka w/ Google Gemini 2.5 Flash
+# 更新: 2025-07-01 k_tsuka w/ Google Gemini 2.5 Flash
 
 declare -A tty_commands
 declare -A tty_users
